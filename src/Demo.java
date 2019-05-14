@@ -38,7 +38,7 @@ public class Demo {
         System.out.println("Finished training");
         System.out.println("Start test email");
 
-        File mailTesting = new File("data/test/test (2).txt");
+        File mailTesting = new File("data/test/test (1).txt");
         String mailData = FileUtils.readFileToString(mailTesting, "UTF-16");
         Set<String> bagOfTest = RunTrainingData.toBagOfWord(mailData);
 
